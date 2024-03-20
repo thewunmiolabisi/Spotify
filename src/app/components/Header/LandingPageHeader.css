@@ -1,10 +1,11 @@
 .header{
-  height: 50px;
+  height: 80px;
   background-color: #000;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 15px;
+  padding: var(--app-padding);
+  background-color: var(--app-header-background);
 }
 
 .menu ul{
@@ -15,15 +16,19 @@
   gap: 30px;
   cursor: pointer;
 }
-/* .menu ul li{
-  padding: 10px;
-} */
+@media (max-width: 500px) {
+  .menu ul{
+    display: none;
+    flex-direction: column;
+  }
+}
 .menu ul li a{
   color: #fff;
   text-decoration: none;
   padding: 5px;
   font-size: 15px;
   font-weight: 500px;
+  text-wrap: nowrap;
 }
 .menu ul li a:active {
   color: #d9dadc;
