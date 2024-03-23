@@ -6,7 +6,10 @@ export function App() {
   return (
     <div>
    <LandingPageHeader />
-   < Hero />
+   < Hero title='Get Premium free for 1 month
+'
+amout={'$232'}
+/>
    </div>
   );
 }

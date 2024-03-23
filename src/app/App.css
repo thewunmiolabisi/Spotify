@@ -36,7 +36,7 @@
     transform: rotate(360deg);
   }
 } */
-.btn, .btn-2{
+.btn, .btn-2, .btn-secondary{
   background-color: black;
   border-radius: 500px;
   padding: 16px 35px;
@@ -47,6 +47,10 @@
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
+}
+.btn-secondary{
+  background-color: #ccc;
+  border: 1px solid #ccc;
 }
 .btn-2{
   background-color: transparent;

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './LandingPageHeader.css';
-import { Logo } from './logo';
+import { Logo } from '../Logo/logo';
  import {HeaderNavigation} from "./HeaderNavigation"
  import MenuIcon from '../../assets/icons/menu.svg'
 
@@ -17,9 +17,9 @@ export const LandingPageHeader = () => {
       </div>
       <div className="menu">
       <HeaderNavigation />
-{/*    
+   
     <img src={MenuIcon} alt='Menu Icon'/>
-         */}
+        
       </div>
     </header>
   );
