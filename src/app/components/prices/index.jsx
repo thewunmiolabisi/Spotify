@@ -1,5 +1,7 @@
 import { paymentMethods, pricingList } from "./data";
 import { PricingSectionList } from './PricingCard'
+import { DiscountFlags } from "./discount";
+import styles from './style.module.css'
 export const PricingSection = () => {
  
   const renderPaymentMethods = (method) => {
@@ -7,23 +9,27 @@ export const PricingSection = () => {
     return null;
   };
 
-  return (
-    <section>
-      <h2>Pick your Premium</h2>
-      <p>Listen without limits on your phone, speaker, and other devices.</p>
+  return ( <section className={styles.section}>
+      <h2 className={styles.text}>Pick your Premium</h2>
+      <p className={styles.description}>Listen without limits on your phone, speaker, and other devices.</p>
     
-     <div>
+     <div className={styles.flex}>
      {
            paymentMethods.map ( renderPaymentMethods)
             }
      </div>
-     <div>
+     <div className={styles.flex}>
+      <br/>
+      <br/>
       {
         pricingList.map(()=> {
           return <PricingSectionList />
         })
       }
      </div>
+     <br/>
+     <br/>
+     <DiscountFlags/>
     </section>
   );
 };

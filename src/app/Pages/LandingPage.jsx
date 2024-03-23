@@ -4,6 +4,7 @@ import {Features } from '../components/Features';
 import {LandingPageHeader} from '../components/Header/LandingPageHeader';
 import { Hero } from '../components/Hero';
 import { PricingSection } from '../components/prices';
+// import { Footer } from '../components/footer';
 export  function LandingPage() {
   return (
     <div>
@@ -14,6 +15,7 @@ amount={'$232'}
 />
 <Features />
 <PricingSection />
+{/* <Footer/> */}
    </div>
   );
 }

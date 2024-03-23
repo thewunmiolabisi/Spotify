@@ -56,6 +56,15 @@
   background-color: transparent;
   border: 1px solid #fff;
 }
+.btn-invert {
+  background-color: #fff;
+  color: #000;
+}
+.btn-outline .btn-invert{
+  background-color: inherit;
+  color: #000;
+  border: 2px solid #000;
+}
 @media (max-width:500px) {
   .btn,.btn-2{
     font-size: 12px;

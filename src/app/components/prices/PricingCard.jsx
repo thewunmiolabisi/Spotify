@@ -24,9 +24,12 @@ export const PricingSectionList = () => {
             <p>Download 10k songs/device on 5 devices</p>
           </li>
         </ul>
-        <CustomButton onClick={() => {}}>View plans</CustomButton>
+        <br/>
+        <CustomButton className={styles.button} onClick={() => {}}>View plans</CustomButton>
       </div>
-      <div className={styles.footer}>Terms and conditions apply. 1 month free not available for users who have already tried Premium.</div>
+      <div className={styles.footer}>
+        <a href='#terms'>Terms and conditions apply. </a>
+        1 month free not available for users who have already tried Premium.</div>
     </div>
   );
 };
