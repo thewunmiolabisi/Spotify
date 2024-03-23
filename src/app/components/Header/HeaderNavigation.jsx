@@ -8,7 +8,7 @@ export const HeaderNavigation = () => {
         <Logo useWhite={true} /> {}
       </div> */}
       <div className='menu'>
-        <NavigationMenu /> {/* Renamed component */}
+        <NavigationMenu />
       </div>
     </header>
   );

@@ -18,7 +18,7 @@ export const LandingPageHeader = () => {
       <div className="menu">
       <HeaderNavigation />
    
-    <img src={MenuIcon} alt='Menu Icon'/>
+    {/* <img src={MenuIcon} alt='Menu Icon'/> */}
         
       </div>
     </header>
