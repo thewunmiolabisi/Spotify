@@ -1,0 +1,42 @@
+.logo{
+  background-color: #000;
+  margin-bottom: 3rem;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.section h5 {
+  margin-bottom: 15px;
+}
+
+.section ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.section ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.footer-section ul li:hover {
+  text-decoration: underline;
+}
+
+.bottom {
+  text-align: center;
+  font-size: 14px;
+}
